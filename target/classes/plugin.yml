@@ -1,0 +1,14 @@
+name: KawasePlugin
+version: 1.0
+main: net.nehaverse.kawasePlugin.KawasePlugin
+description: 現在の為替レートを取得し、通貨の購入・売却を行うプラグイン
+api-version: 1.12
+commands:
+  kawase:
+    description: 現在の為替レートを表示します。
+  rpay:
+    description: 外貨を購入します。
+    usage: /rpay <金額> <通貨> または /rpay show
+  rsell:
+    description: 外貨を売却します。
+    usage: /rsell <金額> <通貨>
